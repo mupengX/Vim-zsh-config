@@ -13,8 +13,8 @@
    
     在.vim文件夹下建立autoload和bundle目录
     
-    从下载地址 https://github.com/tpope/vim-pathogen 获取pathogen.vim文件，将其复制到autoload目录下
-    在.vimrc文件中增加如下代码：
+    从下载地址 https://github.com/tpope/vim-pathogen 获取pathogen.vim文件，
+    将其复制到autoload目录下，在.vimrc文件中增加如下代码：
     
     call pathogen#infect()
 
@@ -109,7 +109,7 @@
     
     Tlist_Show_One_File：设置Tlist_Show_One_File为1则只显示当前文件的taglist，缺省显示多个文件中的tag
     
-    Tlist_Sort_Type：taglish默认按tag在文件中出现的顺序进行排序，设置为"name"，taglist将以tag名字进行排序
+    Tlist_Sort_Type：taglish默认按tag在文件中出现的顺序进行排序，设置为"name"并以tag名字进行排序
     
     Tlist_Exit_OnlyWindow：设置为1时，如果taglist是最后一个窗口，则退出vim
     
