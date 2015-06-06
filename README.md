@@ -2,6 +2,9 @@
 
 <h1>一、VIM插件</h1>
 
+<h2>截图</h2>
+ 
+<img src="https://raw.githubusercontent.com/mupengX/Vim-zsh-config/master/img/vim.png" style="max-width:100%;">
 <h2>1. pathogen</h2>
 
  pathogen是一个采用bundle的理念来管理插的插件。pathogen在.vim目录下建立bundle文件夹，所有插件都在目录管。
