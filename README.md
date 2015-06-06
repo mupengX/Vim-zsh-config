@@ -15,11 +15,11 @@
     
     call pathogen#infect()
 
-<h2>2. NERDTree
+<h2>2. NERDTree</h2>
     
     NERDTree是Vim最常用的插件之一，可以在Vim运行时显示目录和文件结构
 
-    <h3>安装
+    <h3>安装</h3>
     
     进入.vim/bundle目录执行git clone git://github.com/scrooloose/nerdtree.git
     
@@ -32,13 +32,13 @@
     打开Vim，输入:NERDTree，即可呼出执行Vim命令的当前目录的文件目录。
     为了方便使用，我在.vimrc中定义了快捷键F7，可以用F7打开NERDTree，你可以定义自己习惯的快捷键。
     
-<h2>3. Powerline
+<h2>3. Powerline</h2>
     
     Powerline是Vim的一个非常漂亮的状态栏插件，安装了Powerline之后，Vim底部将会出现一个增强型状态栏，
     当Vim处于NORMAL、INSERT、BLOCK等状态时，状态栏会呈现不同的颜色，同时状态栏还会显示当前编辑文件
     的格式（uft-8等）、文件类型（java、xml等）和光标位置等。
 
-   <h3> 安装
+   <h3> 安装 </h3>
     
     进入.vim/bundle目录
     执行git clone git://github.com/Lokaltog/vim-powerline.git
@@ -56,23 +56,23 @@
      
      "}
      
-<h2>4. ctags
+<h2>4. ctags</h2>
   
 	通过ctags -R命令可以对当前目录下源代码中的类、函数、方法、变量、宏等元素进行索引处理，
 	并生成索引文件。Vim使用ctags生成的tag文件，即可实现IDE中常用的代码跳转功能。
 
-  <h3>安装
+  <h3>安装</h3>
   
   	对于Ubuntu，可以使用如下命令安装：
   	sudo apt-get install ctags
   	安装完成后在终端键入ctags--help，看到正常的帮助信息就说明安装成功了。
   
-<h2>5. taglist
+<h2>5. taglist</h2>
   
 	taglist是Vim的一个代码浏览的插件，类似IDE中的Outline视图，可以根据不同语言
 	的代码显示代码中的包、类、接口、方法、函数、变量、属性等内容。taglist同样需要依赖ctags命令生成tag
 
-  安装
+  <h3> 安装 </h3>
   
   进入~/.vim/bundle目录执行： git clone git://github.com/vim-scripts/taglist.vim.git
   
