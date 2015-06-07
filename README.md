@@ -143,6 +143,7 @@
    
    <h3>安装zsh</h3>
    Redhat Linux, 执行：sudo yum install zsh
+   
    Ubuntu Linux, 执行：sudo apt-get install zsh
    
    
