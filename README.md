@@ -146,6 +146,7 @@
    Ubuntu Linux, 执行：sudo apt-get install zsh
    
    <h3>安装oh my zsh</h3>
+   
     自动安装：
     wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
     
