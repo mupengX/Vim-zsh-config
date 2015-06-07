@@ -145,6 +145,7 @@
    Redhat Linux, 执行：sudo yum install zsh
    Ubuntu Linux, 执行：sudo apt-get install zsh
    
+   
    <h3>安装oh my zsh</h3>
    
     自动安装：
