@@ -135,3 +135,19 @@
     
     +，打开所有的tag
     
+    
+   <h1>二、终极shell：ZSH</h1> 
+   
+   <h2>截图</h2>
+   <img src="https://raw.githubusercontent.com/mupengX/Vim-zsh-config/master/img/zsh.png" style="max-width:100%;">
+   
+   <h3>安装zsh</h3>
+   Redhat Linux, 执行：sudo yum install zsh
+   Ubuntu Linux, 执行：sudo apt-get install zsh
+   
+   <h3>安装oh my zsh</h3>
+    自动安装：
+    wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
+    手动安装：
+	git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+	cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
